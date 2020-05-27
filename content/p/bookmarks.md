@@ -41,4 +41,4 @@ Music
 ## Documentaries
 - [Le Jeu de la mort](https://www.youtube.com/watch?v=y4vL89T4epI) (In French). A contemporary implementation of the Milgram experiment.
 - [Ni Dieu ni maître, une histoire de l'anarchisme (Livre 1)](https://www.youtube.com/watch?v=xV4GfHjJAtE) (In French)
-- [Ni Dieu ni maître, une histoire de l'anarchisme (Libre 2)](https://www.youtube.com/watch?v=yxre_Cd5TAI) (In French)
+- [Ni Dieu ni maître, une histoire de l'anarchisme (Livre 2)](https://www.youtube.com/watch?v=yxre_Cd5TAI) (In French)
