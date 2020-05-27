@@ -5,19 +5,39 @@
     <title>{{ block "title" . }}
       {{ .Site.Title }}
     {{ end }}</title>
+    {{ with .OutputFormats.Get "rss" -}}
+        {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
     <link rel="stylesheet" href="/syntax.css">
+    <style>
+body {
+    background-color: white;
+    width: 1024px;
+    margin: 0 auto 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+    </style>
   </head>
-  <body style="font-family: 'Courier New', Courier, monospace;">
-    <a href="{{ ref . "/"}}"><h1 style="text-align: center;">Herr Felix</h1></a> 
-    <p style="text-align: center;">Nothing here is be taken too seriously.</p>
-    <div style="width: 1024px; margin: 0 auto 0 auto;">
-      <hr>
+  <body>
+    <div style="text-align: center;">
+        <a href="{{ ref . "/"}}">
+            <h1>Herr Felix</h1>
+        </a> 
+        <p>I don't speak German BTW (French is totally my thing though)</p>
+    </div>
+    <hr>
+    <div>
     {{ block "main" . }}
-      <!-- The part of the page that begins to differ between templates -->
+
     {{ end }}
     </div>
-    {{ block "footer" . }}
-    <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
-    {{ end }}
+    <hr>
+    <div style="text-align: center;">
+        <p style="color:transparent;">
+            Steal my content, there are no copyrights here.
+            <br/>
+            If you don't like my lack of CSS, just use a text-based browser browser.
+        </p>
+    </div>
   </body>
 </html>
