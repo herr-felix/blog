@@ -1,15 +1,37 @@
-baseURL = "https://herr-felix.dev/"
-languageCode = "en-CA"
-title = "Herr Felix's internet ranch"
+# The URL the site will be built for
+base_url = "https://herr-felix.dev"
+theme = "hermit_zola"
 
-[markup]
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = false
-    hl_Lines = ""
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = true
-    style = "native"
-    tabWidth = 4
+title = "Bonjour, je m'appelle Felix Beaulieu"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+
+[extra]
+# Put all your custom variables here
+
+home_subtitle = "Je conçois et maintient des logiciels depuis 2014."
+
+footer_copyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+hermit_menu = [
+]
+
+hermit_social = [
+    { name = "email", link = "mailto:felix@herr-felix.dev" },
+    { name = "github", link = "https://github.com/herr-felix" },
+]
+
+
+[extra.author]
+name = "Felix Beaulieu"
+email = "felix@herr-felix.dev"
+
