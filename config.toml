@@ -2,7 +2,7 @@
 base_url = "https://herr-felix.dev"
 theme = "hermit_zola"
 
-title = "Salut, je m'appelle Felix Beaulieu"
+title = "Felix Beaulieu, Programmeur informatique"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
