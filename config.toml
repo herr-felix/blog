@@ -2,7 +2,7 @@
 base_url = "https://herr-felix.dev"
 theme = "hermit_zola"
 
-title = "Felix Beaulieu, Programmeur informatique"
+title = "Felix Beaulieu, programmeur informatique"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -18,7 +18,7 @@ build_search_index = true
 [extra]
 # Put all your custom variables here
 
-home_subtitle = "Je conçois et maintient des logiciels depuis 2014."
+home_subtitle = "Chasseur de solutions, ceuilleur d'informations."
 
 footer_copyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
@@ -29,7 +29,6 @@ hermit_social = [
     { name = "email", link = "mailto:felix@herr-felix.dev" },
     { name = "github", link = "https://github.com/herr-felix" },
 ]
-
 
 [extra.author]
 name = "Felix Beaulieu"
